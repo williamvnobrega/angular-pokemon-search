@@ -1,0 +1,127 @@
+.card{
+    width: 300px;
+    height: 400px;
+    border-radius: 25px;
+    box-shadow: 8px 8px 20px #AEAEC040, -8px -8px 20px #ffffff;
+    display:flex;
+    flex-direction: column;
+    margin: 25vh auto;
+    
+}
+
+.card_title > h2{
+    padding-top: 15px;
+    color: #000000;
+    text-align: center;
+    color: rgba(0, 0, 0, 0);
+    text-shadow: 2px 2px 4px #EFEFF250, 0 0 0 #a5abab;
+    /*    text-shadow: 2px 2px 4px #EFEFF250, 0 0 0 rgb(var(--primery));*/
+    text-transform: capitalize;
+}
+
+.card_body{
+    background-color: #efeff2;
+    width: 80%;
+    margin-left: 30px;
+    margin-right: auto;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 60%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+.card_stats{
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.stats_type{
+    color:#efeff2;
+    background-color:  #fd8300;
+    padding: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.search{
+    position: absolute;
+    top: 20%;
+    left: 42%;
+}
+
+.search > input{
+    width: 300px;
+    border-radius: 5px;
+    border:1px solid #efeff2;
+}
+
+.search > input:focus{
+    background-color: #fbfcff;
+    outline: none;
+}
+
+.normal{
+    background-color: #eeddc6 ;
+} 
+.fire{
+    background-color:#e39d7b;
+}
+.water {
+    background-color: #8fc6d3;
+}
+.electric{
+    background-color:#fad570 ;
+}
+.grass {
+    background-color:#abd4bd ;
+}
+.ice {
+    background-color:#d2d9e6 ;
+}
+.fighting{
+    background-color:#e5928f ;
+}
+.poison{
+    background-color: #ccaeca ;
+}
+
+.ground{
+    background-color:#c9b3a4 ;
+} 
+.flying{
+    background-color:#95a6d1 ;
+} 
+.psychic{
+    background-color:#f09aae ;
+}
+.bug {
+    background-color:#c4dba0 ;
+}
+.rock {
+    background-color:#d4b89c ;
+}
+.ghost {
+    background-color:#a48aa1 ;
+} 
+.dragon{
+    background-color:#929cb7  ;
+} 
+.dark {
+    background-color:#7b736e ;
+}
+.steel {
+    background-color:#a3abbc ;
+}
+.fairy {
+    background-color:#f8cfd4 ;
+} 
+
+
+
